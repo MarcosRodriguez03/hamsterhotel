@@ -1,0 +1,613 @@
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Source Sans 3', sans-serif; */
+@font-face {
+    font-family: dog;
+    src: url(../Fonts/static/SourceSans3-Bold.ttf);
+}
+
+
+
+
+body {
+    background-color: white;
+    
+}
+
+/* navbar css */
+.nav-link {
+   padding-left:20px !important;
+   padding-right: 20px !important;
+    border: 1px solid;
+    border-color :  transparent  !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 0;
+    padding-bottom:0 ;
+  }
+
+/* unvisited link */
+a:link {
+    color: white !important;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #e5feff !important;
+  }
+  
+  /* mouse over link */
+  .nav-link:hover {
+
+    border: 1px solid;
+    border-color :  white  !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: purple !important;
+  }
+
+.navbar-toggler-icon{
+    background-color: #e5feff;
+    border-radius: 15%;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbarEdit {
+    background-color: #000324;
+    /* height: 120px; */
+
+}
+
+.navbar-nav>a {
+    margin-left: 18.5px;
+    margin-right: 18.5px;
+    /* padding-left:0 !important;
+    padding-right: 0 !important; */
+}
+
+#logo {
+    width: 143px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navFontColor {
+    /* color: #FFFFFF !important; */
+}
+
+.adjustNav {
+    display: flex;
+    justify-content: center;
+}
+
+.adjustNavText {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.active {
+    border: solid 2px #e5feff !important;
+    opacity: 1;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top:3px !important;
+    padding-bottom: 3px !important;
+
+}
+
+/* end of navbar css */
+
+
+/* start of header */
+
+
+/* .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.headerText {
+    color: #E5FEFF;
+    text-align: center;
+    background-color: #000324;
+    opacity: 80%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.background1 {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 50% 56%;
+    height: 500px;
+}
+
+/* .invsPadding {
+    padding-top: 7%;
+} */
+
+.centerAgain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topFont {
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+
+}
+
+.btmFont {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+}
+
+/* end of header */
+
+.background2 {
+    background-color: white;
+    background-size: cover;
+    height: auto;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: center;
+}
+
+.hamsterPic1 {
+    width: 369px;
+    height: 416px;
+}
+
+.topText2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+}
+
+.btmText2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+}
+
+/* .img1 {
+    width: 200;
+    height: 153;
+} */
+
+.img2 {
+    width: 200;
+    height: 193;
+
+}
+
+/* .img3 {
+    width: 200;
+    height: 175;
+} */
+
+.startAgain {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centerAgain {
+    display: flex;
+    justify-content: center;
+}
+
+.endAgain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.marginTopBtm{
+padding-top:5% ;
+padding-bottom: 4.5%;
+}
+/* end */
+/* room css */
+
+.background3 {
+    background-image: url(../assets/bg2.jpg);
+    background-size: cover;
+    background-position: 50% 56%;
+    height: auto;
+}
+
+.test1{
+    display: flex;
+    justify-content: flex-end;
+}
+.test2{
+    display: flex;
+    justify-content: center;
+}
+.test3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fontRoom{
+    font-size:  35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+
+}
+
+.fontRoom1{
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    color: #1A1B26;
+}
+.fontRoom2{
+font-size: 16px;
+font-family: dog;
+color: #1A1B26;
+}
+.fontRoom3{
+font-size: 16px;
+font-family: 'Source Sans 3', sans-serif;
+color: #1A1B26;
+}
+
+.fontRoomBtn{
+    font-family: dog; 
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background-color: #004CC7;
+   
+  
+}
+
+/* end of 3 rooms */
+
+/* start of packages */
+
+.packageFontTop{
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: #1A1B26;
+    text-align: center;
+
+}
+
+.packImg1{
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+    object-position: 50% 4%;
+    /* display: flex;
+    justify-content: flex-start; */
+    
+}
+.packImg2{
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+    object-position: 50% 35%;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.packImg3{
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+    object-position: 50% 73%;
+    /* display: flex;
+    justify-content: start; */
+}
+
+.fontHead{
+font-size: 25px;
+font-family: 'Dosis', sans-serif;
+color: #1A1B26;
+}
+.fontPrice{
+font-size: 16px;
+color: #1F51A8;
+font-family: 'Source Sans 3', sans-serif; 
+}
+.fontBody{
+font-size: 16px;
+color: #1A1B26;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+
+/* end of packages */
+
+/* start of amenities */
+.background4{
+    background-image: url(../assets/bg.jpg);
+    background-size:cover;
+    background-position: 50% 60%;
+    height: auto;
+}
+
+.amenTop{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.amenBtm{
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.amenPic1{
+    width:150px;
+    height:101px ;
+}
+.amenPic2{
+    width: 150px;
+    height:104px ;
+}
+.amenPic3{
+    width:100px ;
+    height: 115px;
+}
+.amenPic4{
+    width:155px ;
+    height:110px ;
+}
+.logoText{
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-style:bold ;
+    color: white;
+    text-align: center;
+
+}
+.centerAmen{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* end of amenities */
+
+
+
+/* res room */
+
+.bgRoom1{
+    background-color: #000324;
+    border: none !important;
+}
+
+.bgRoom2{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-size:cover;
+    background-position: 50% 60%;
+    height: 414px;
+}
+
+.bgRoom3{
+    background-color: white;
+   
+}
+
+.resTopFont{
+font-size: 35px;
+color: white;
+text-align: center;
+font-family: 'Dosis', sans-serif;
+}
+
+.resBtmFont{
+    color: #E5FEFF;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+   
+}
+
+
+
+.resBtnFont{
+    font-family: dog; 
+    font-weight: bolder;
+    font-size: 20px;
+
+    color: white;
+    background-color: #006EDB;
+    border: 1px solid #000DC7;
+
+    /* background-color: #006EDB;
+    border: #000DC7 solid 1px; */
+}
+
+.paddingBtmNone{
+    padding-bottom: -1px;
+}
+
+.padBar{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marginReserver{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* res room */
+
+/* footer */
+
+.background5{
+    background-color: #000324;
+}
+
+.footerTopFont{
+color: #E5FEFF;
+font-size: 16px;
+text-align: center;
+}
+
+.footerBtmFont{
+color: #E5FEFF;
+font-size: 16px;
+text-align: center;
+}
+
+/* footer */
+
+
+@media screen and (max-width: 1902px){
+    .resBtnFont{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1550px){
+    .resBtnFont{
+        font-size: 10px;
+    }
+    .resBtmFont{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+    .bgRoom3{
+        background-image: url(../assets/hamsterreserve.jpg);
+    background-size:cover;
+    background-position: 20% 20%;
+    }
+    
+    .resBtnFont{
+        font-size: 20px;
+    }
+    .crossPadding{
+        
+        margin-bottom: 60px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .adjustNavText {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+    }
+    .adjustNav{
+        display: flex;
+        justify-content: center;
+    }
+    .crossPadding{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .fontRoom1{
+        font-size: 15px;
+    }
+    .fontRoom2{
+        font-size: 15px;
+    }
+    .fontRoom3{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .topFont{
+        font-size: 35px;
+    }
+    .btmFont{
+        font-size: 15px;
+    }
+    .logoText{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+    .topFont{
+        font-size: 25px;
+    }
+    .btmFont{
+        font-size: 10px;
+    }
+
+    .adjustNav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .adjustNavText {
+        display: flex;
+        align-items:flex-end;
+        justify-content: flex-end;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+    }
+    .topText2{
+        font-size: 30px;
+    }
+
+    .btmText2{
+        font-size: 20px;
+    }
+    .logoText{
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+    
+    .bgRoom3{
+     background-image: none;
+     background-size:cover;
+     background-position: 20% 20%;
+    }
+    .marginReserver{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
