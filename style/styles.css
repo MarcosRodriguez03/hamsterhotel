@@ -172,6 +172,8 @@ a:link {
 .hamsterPic1 {
     width: 369px;
     height: 416px;
+    object-fit: cover;
+    
 }
 
 .topText2 {
@@ -221,6 +223,26 @@ padding-bottom: 4.5%;
 }
 /* end */
 /* room css */
+
+
+.room3Pic{
+    width: 369px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.room1Pic{
+    width: 369px;
+    height: 190px;
+    object-fit: cover;
+    object-position: 35% 60%;
+}
+.room2Pic{
+    width: 369px;
+    height: 190px;
+    object-fit: cover;
+}
+
 
 .background3 {
     background-image: url(../assets/bg2.jpg);
@@ -278,6 +300,10 @@ color: #1A1B26;
 /* end of 3 rooms */
 
 /* start of packages */
+
+.packagesPaddingBottom{
+padding-bottom: 20px;
+}
 
 .packageFontTop{
     font-size: 35px;
@@ -508,6 +534,10 @@ text-align: center;
 
 
 @media screen and (max-width: 992px) {
+    .packagesPaddingBottom{
+        padding-bottom: 0px;
+        }
+
     .adjustNavText {
         display: flex;
         align-items:center;
@@ -520,8 +550,8 @@ text-align: center;
         justify-content: center;
     }
     .crossPadding{
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .fontRoom1{
         font-size: 15px;
